@@ -1,0 +1,17 @@
+{
+  "name": "juju-gui-d3",
+  "version": "1.0.0",
+  "description": "Package for building D3 for the Juju GUI",
+  "dependencies": {
+    "d3": "3.5.16",
+    "smash": "0.0.15",
+    "uglify": "^0.1.5",
+    "uglifyjs": "^2.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
