@@ -1,6 +1,7 @@
 d3-min.js: node_modules
 	node_modules/.bin/smash $(shell node_modules/.bin/smash --list \
 	  d3-wrapper-start.js \
+	  node_modules/d3/src/arrays/extent.js \
 	  node_modules/d3/src/compat/index.js \
 	  node_modules/d3/src/selection/* \
 	  node_modules/d3/src/behavior/* \
@@ -8,7 +9,10 @@ d3-min.js: node_modules
 	  node_modules/d3/src/geom/polygon.js \
 	  node_modules/d3/src/scale/linear.js \
 	  node_modules/d3/src/scale/log.js \
+	  node_modules/d3/src/time/format.js \
+	  node_modules/d3/src/time/scale.js \
 	  node_modules/d3/src/transition/* \
+	  node_modules/d3/src/svg/axis.js \
 	  node_modules/d3/src/svg/line.js \
 	  node_modules/d3/src/svg/arc.js \
 	  node_modules/d3/src/event/drag.js \
